@@ -1,0 +1,150 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality-tests;successful-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the login page",
+            "result": {
+              "duration": 3581000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter valid credentials",
+            "result": {
+              "duration": 1429000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be redirected to the secure area",
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality-tests;failed-login-with-invalid-username",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Failed login with invalid username",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on the login page",
+            "result": {
+              "duration": 327000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 10,
+            "name": "I enter an invalid username",
+            "result": {
+              "duration": 1277000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see \"Your username is invalid!\"",
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality-tests;failed-login-with-invalid-password",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Failed login with invalid password",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I am on the login page",
+            "result": {
+              "duration": 318000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 15,
+            "name": "I enter an invalid password",
+            "result": {
+              "duration": 1219000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see \"Your password is invalid!\"",
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality-tests",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login Functionality Tests",
+    "uri": "cypress/features/tests/Login.feature"
+  }
+]
